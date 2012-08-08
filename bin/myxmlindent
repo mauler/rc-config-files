@@ -1,0 +1,3 @@
+#!/bin/sh
+xmlindent -i 4 | sed 's/[ \t]*$//' | sed '/^$/d'
+

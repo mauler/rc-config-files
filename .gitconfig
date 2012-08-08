@@ -1,6 +1,9 @@
+[core]
+    excludesfile = ~/.gitignore
+
 [user]
-	name = Ricardo L. Dani
-	email = ricardodani@gmail.com
+	name = Paulo R. Macedo
+	email = proberto.macedo@gmail.com
 
 [color]
 	diff = auto
@@ -31,3 +34,4 @@
 	ll = log --graph --pretty=format:%Cblue%h%d%Creset%x20%s
 	la = log --graph --pretty=format:%Cblue%h%d%Creset%x20%s --all
 	ls = ls-files
+
