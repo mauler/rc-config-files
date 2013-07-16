@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/ricardo/Trabalho/storm/globosat/tplay/core/tplay_haystack'
-let g:netrw_dirhist_2='/home/ricardo/Trabalho/storm/globosat/tplay/core/tplay_auth/views'
-let g:netrw_dirhist_3='/home/ricardo/Trabalho/storm/globosat/tplay/core/tplay_auth'
-let g:netrw_dirhist_4='/home/ricardo/Trabalho/storm/globosat/tplay/core/tplay_auth/views'
-let g:netrw_dirhist_5='/home/ricardo/Trabalho/globosat/tplay/core/tplay_api'
-let g:netrw_dirhist_6='/home/ricardo/Trabalho/radix/projeto1'

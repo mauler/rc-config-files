@@ -1,0 +1,9 @@
+#!/bin/bash
+
+youtube-dl -o "%(title)s.flv" --format=18 "$1"
+flv=$(ls *flv)
+mv "$flv" `echo $flv | tr " " "_"`
+flv=`echo $flv | tr " " "_"`
+mp3=`basename $flv .flv`.mp3
+ffmpeg -i $flv -acodec libmp3lame -vn -y $mp3
+mv -v $flv videos/
